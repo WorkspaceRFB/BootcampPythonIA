@@ -9,8 +9,9 @@
 #     print(f'Olá {nome}, sua idade é {idade + int(5)} e você pode acessar o conteúdo.')
 # print('Obrigado por participar!')
 
-porcoes_total = int(input('Digite a quantidade de porções: '))
-porcoes_dias  = int(input('Digite a quantidade de porções consumidas por dia: '))
+# porcoes_total = int(input('Digite a quantidade de porções: '))
+# porcoes_dias  = int(input('Digite a quantidade de porções consumidas por dia: '))
 
-dias = porcoes_total // porcoes_dias
-print(f'Você poderá consumir as porções por {dias} dias.')
+# dias = porcoes_total // porcoes_dias
+# print(f'Você poderá consumir as porções por {dias} dias.')
+
