@@ -15,3 +15,21 @@
 # dias = porcoes_total // porcoes_dias
 # print(f'Você poderá consumir as porções por {dias} dias.')
 
+# idade = int(input('Digite sua idade: '))
+
+# if idade >= 18:
+#     print('Autorizado')
+# elif idade >= 16:
+#     autorizacao = input('Tem autorização?S/N: ')
+#     if autorizacao in ('S', 's'):
+#         print('Autorizado')
+#     else:
+#         print('Não Autorizado')
+# else:
+#     print('Não Autorizado')
+
+senha = ''
+
+while (senha != '18'):
+    senha = input('Entre com a sua senha: ')
+print('Acesso Liberado!')
