@@ -1,10 +1,12 @@
 tarefas = []
 
-tarefas.append('Estudar Python com IA')
-tarefas.append('Ler um artigo sobre IA')
-tarefas.append('Responder e-mails')
+addTarefas = input('Deseja adicionar uma tarefa? S/N: ')
+
+while addTarefas == 'S':
+    tarefas.append(input('Qual a tarefa? '))
+    addTarefas = input('Deseja adicionar uma tarefa? S/N: ')
 
 x = 1
 for tarefa in tarefas:
-    print(f'Tarefa', x, tarefa)
+    print(f'Tarefa', x, '-', tarefa)
     x = x+1
