@@ -1,3 +1,6 @@
+import funcoes
+print(funcoes.maiorIdade(19))
+
 tarefas = []
 
 addTarefas = input('Deseja adicionar uma tarefa? S/N: ')
