@@ -13,3 +13,4 @@ print(casa2.mostrarCor(),',',
       casa2.mostrarQuartos(), 'e',
       casa2.mostrarBanheiros())
 print(casa2.construirQuarto())
+
